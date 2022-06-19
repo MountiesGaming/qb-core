@@ -4419,6 +4419,47 @@ QBShared.Vehicles = {
 		['hash'] = `nimbus`,
 		['shop'] = 'air',
 	},
+
+	-- VW Cars
+	['buffaloh'] = {
+		['name'] = 'BuffaloH',
+		['brand'] = 'Bravado',
+		['model'] = 'buffaloh',
+		['price'] = 20750,
+		['category'] = 'sports',
+		['hash'] = `buffaloh`,
+		['shop'] = 'luxury',
+	},
+	['admiral3'] = {
+		['name'] = 'Admiral Classic',
+		['brand'] = 'Albany',
+		['model'] = 'admiral',
+		['price'] = 18750,
+		['category'] = 'sports',
+		['hash'] = `admiral3`,
+		['shop'] = 'luxury',
+	},
+
+
+	-- RCMP Cars
+	['RCMP1'] = {
+		['name'] = 'Crown Vic',
+		['brand'] = 'Ford',
+		['model'] = 'cvpi',
+		['price'] = 0,
+		['category'] = 'police',
+		['hash'] = `rcmp1`,
+		['shop'] = 'police',
+	},
+	['RCMP2'] = {
+		['name'] = 'Taurus',
+		['brand'] = 'Ford',
+		['model'] = 'fpis',
+		['price'] = 0,
+		['category'] = 'police',
+		['hash'] = `rcmp2`,	
+		['shop'] = 'police',
+	},
 }
 
 for _, v in pairs(QBShared.Vehicles) do
