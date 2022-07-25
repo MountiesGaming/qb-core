@@ -4460,6 +4460,24 @@ QBShared.Vehicles = {
 		['hash'] = `rcmp2`,	
 		['shop'] = 'police',
 	},
+	['RCMP3'] = {
+		['name'] = 'Crown Vic',
+		['brand'] = 'Ford',
+		['model'] = 'cvpi',
+		['price'] = 0,
+		['category'] = 'police',
+		['hash'] = `rcmp3`,
+		['shop'] = 'police',
+	},
+	['RCMP4'] = {
+		['name'] = 'Taurus',
+		['brand'] = 'Ford',
+		['model'] = 'fpis',
+		['price'] = 0,
+		['category'] = 'police',
+		['hash'] = `rcmp4`,	
+		['shop'] = 'police',
+	},
 }
 
 for _, v in pairs(QBShared.Vehicles) do
